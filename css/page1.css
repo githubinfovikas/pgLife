@@ -1,0 +1,33 @@
+.grid1{
+    display: flex;
+    justify-content: center;
+    
+}
+.grid2{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.hw{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    
+}
+footer  a{
+    color:white;
+}
+ooter p{
+    color:white;
+   text-align: center;
+}
+@media(max-width:768px){
+    .grid1{
+        display: block;
+        text-align: center;
+    }
+}
